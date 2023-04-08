@@ -13,7 +13,7 @@ let firstname = "maneesh";
 let age = 26;
 let gender = 'M';
 let canCode = 'true';
-let lastname = "maneesh";
+firstname = "manish";
 console.log(firstname, age, gender, canCode);
 
 // with "Const" ------> we can't re-assign the value
