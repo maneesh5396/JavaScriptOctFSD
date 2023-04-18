@@ -4,9 +4,17 @@
     //---> variables and functions DECLARATION are hoisted.(it will treat function and variable if they are on top of the file.)
     //-->*** Let and Const are hoisted in TEMPORARAL_DEADZONE ***
 
+    //---it will "parse" in 2 phase
+
+    // 1->Parsing Phase: this will only declare "variable and functions"
+    // 2->Execution Phase: this will assign all the values and execute all
+    
+    console.log(a);     // undefined
+    var a = 12;         // 
+    console.log(a);
 
 
-//---------------------------Operators--------------
+//---------------------------Operators---------------------
     //( <, >, <=, >=, ==, !=)
 //--- comparison operators is something different in JS from Java
 
